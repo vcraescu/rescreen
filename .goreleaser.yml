@@ -1,0 +1,29 @@
+builds:
+  -
+    env:
+      - CGO_ENABLED=0
+    binary: rescreen
+    goos:
+      - linux
+    goarch:
+      - amd64
+      - i386
+    main: ./cmd/rescreen/main.go
+before:
+  hooks:
+    - go mod download
+archive:
+  replacements:
+    linux: Linux
+    386: i386
+    amd64: x86_64
+checksum:
+  name_template: 'checksums.txt'
+snapshot:
+  name_template: "{{ .Tag }}-next"
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
