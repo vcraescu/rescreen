@@ -6,7 +6,7 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
-github.com/vcraescu/go-xrandr v0.0.0-20181229110639-d274803e375e h1:UOCgsYTSQbl5SOxRDUWPwDimEhBg0F2zeBlYIKfjVEs=
-github.com/vcraescu/go-xrandr v0.0.0-20181229110639-d274803e375e/go.mod h1:LVPmVEv6GKVAswrHXu0Fuhsg7YZwcKQS78uqLLdvHEA=
+github.com/vcraescu/go-xrandr v0.0.0-20190102070802-135ba5f1bc04 h1:Dwio1JYvY844tLsXBqbxRSjHUxCLqoXOBhxcdIn4BoE=
+github.com/vcraescu/go-xrandr v0.0.0-20190102070802-135ba5f1bc04/go.mod h1:LVPmVEv6GKVAswrHXu0Fuhsg7YZwcKQS78uqLLdvHEA=
 gopkg.in/urfave/cli.v1 v1.20.0 h1:NdAVW6RYxDif9DhDHaAortIu956m2c0v+09AZBPTbE0=
 gopkg.in/urfave/cli.v1 v1.20.0/go.mod h1:vuBzUtMdQeixQj8LVd+/98pzhxNGQoyuPBlsXHOQNO0=
